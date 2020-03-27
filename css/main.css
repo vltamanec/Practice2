@@ -252,21 +252,6 @@ header {
 	opacity: 0.7;
 }
 
-.service > .management::before {
-	content: url('../images/service-1.png');
-}
-
-.service > .ux::before {
-	content: url('../images/service-2.png');
-}
-
-.service > .branding::before {
-	content: url('../images/service-3.png');
-}
-
-.service > .animation::before {
-	content: url('../images/service-4.png');
-}
 
 /* Feature products */
 .feature-products {
