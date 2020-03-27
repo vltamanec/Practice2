@@ -51,10 +51,22 @@ header {
     color: #ffffff;
     display: inline-block;
     background-color: #ff3f40;
+    border-radius: 8px;
     width: 227px;
     padding: 22px 0;
     text-align: center;
     text-decoration: none;
+}
+.button-ln {
+    color: #ff3f40;
+    display: inline-block;
+    border: #ff3f40 solid 2px;
+    border-radius: 8px;
+    width: 227px;
+    padding: 22px 0;
+    text-align: center;
+    text-decoration: none;
+
 }
 
 .intro-image {
@@ -70,27 +82,33 @@ header {
 	min-height: 100%;
     padding-right: 164px;
     padding-left: 164px;
-    min-height: 100%;
     padding-bottom: 10px;
 }
 
 .footer-wrapper{
     display: inline-block;
     height: 100%;
-    мertical-align: middle;
+    vertical-align: center;
     padding-right: 164px;
     padding-left: 164px;
 
 }
 
-
+.intro {
+    margin-top: 15px;
+}
 
 footer {
     position: relative;
+    vertical-align: center;
 	flex: 0 0 auto;
     text-decoration: none;
     color: #b8b8b8;
     height: 112px;
     width: 100%;
     background-color: #000000;
+}
+
+#el1 {
+    vertical-align: top;
 }
